@@ -176,10 +176,10 @@ resultEntry1 = Entry(window, bg = "orange")
 resultEntry1.place(x=200, y=220, height=20, width=143)
 
 # Pogu sintakse
-button_1f = Button(window, text="Aprēķināt nezināmo", fg="black", font=("Courier", 10), command=pirma_formula) # Use command to call the functions.
+button_1f = Button(window, text="Aprēķināt nezināmo", fg="black", font=("Courier", 10), command=pirma_formula) # Izmantota komanda, lai izsauktu atbilstošo funkciju
 button_1f.place(x=10, y=90, height=20, width=150)
 
-button_2f = Button(window, text="Aprēķināt nezināmo", fg="black", font=("Courier", 10), command=otra_formula) # Use command to call the functions.
+button_2f = Button(window, text="Aprēķināt nezināmo", fg="black", font=("Courier", 10), command=otra_formula) 
 button_2f.place(x=10, y=200, height=20, width=150)
 
 button_vest = Button(window, text="Pirmās formulas vēsture", fg="black", font=("Courier", 10), command=vestures_tabula)
